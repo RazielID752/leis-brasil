@@ -2,6 +2,22 @@
 
 Biblioteca de legislação brasileira em Next.js, TypeScript, Tailwind CSS, pnpm, Lucide e Magic UI. **Constituição e guias ficam locais; outras leis são carregadas do repositório ao abrir. Não há SQLite, importação nacional ou índice nacional no projeto.**
 
+A ideia do projeto é facilitar o acesso à informação e a compreensão da legislação brasileira, tanto pelo público geral quanto por advogados e outros profissionais. O objetivo não é substituir as fontes oficiais: cada página inclui um link para a fonte oficial correspondente.
+
+## Origem do acervo e agradecimentos
+
+Os textos legais utilizados pelo leisbrasil vêm do projeto [ctresb/leis](https://github.com/ctresb/leis), que organiza a legislação brasileira em Markdown a partir de fontes oficiais. A Constituição mantida localmente também foi obtida desse acervo. O leisbrasil acrescenta a experiência de navegação, busca e materiais educativos; não é o autor das normas nem o mantenedor do repositório de origem.
+
+Agradecemos aos mantenedores e colaboradores de **ctresb/leis** pelo trabalho de coleta, organização e disponibilização dos textos. Se este site for útil para você, considere também apoiar o acervo na origem:
+
+- Confira as orientações no [README de ctresb/leis](https://github.com/ctresb/leis#readme).
+- Ajude a identificar erros de conversão, lacunas ou divergências, indicando a fonte oficial e a versão consultada nas [issues do acervo](https://github.com/ctresb/leis/issues).
+- Se puder contribuir com correções ou melhorias na coleta e organização, confira as [propostas já abertas](https://github.com/ctresb/leis/pulls) e siga o fluxo de contribuição definido pelos mantenedores.
+
+Para melhorar a interface, a busca ou os guias do **leisbrasil**, consulte nosso [guia de contribuição](CONTRIBUTING.md). Cada projeto tem seus próprios responsáveis e critérios de revisão; a referência à fonte não implica parceria ou vínculo entre os projetos.
+
+O projeto [abjur/constituicao](https://github.com/abjur/constituicao) também é uma referência complementar para a Constituição. Seus dados não substituem o texto local utilizado nesta versão.
+
 ## Executar
 
 Node.js 24.5+ e pnpm 10.18.3:
@@ -76,7 +92,7 @@ Guarda Constituição, guias, catálogo e licenças, com SHA-256 ao lado. **Não
 
 ## Fontes e limites
 
-Fonte principal: https://github.com/ctresb/leis. https://github.com/abjur/constituicao é referência complementar, sem mesclar textos silenciosamente. A página `/sobre` explica cobertura, datas, origem e limitações. Conversões podem ter erros e não substituem a fonte oficial. O guia inicial está identificado como pendente de revisão jurídica.
+A origem do acervo e as formas de contribuir estão descritas acima. A página `/sobre` explica cobertura, datas, origem e limitações. Conversões podem ter erros e não substituem a fonte oficial. O guia inicial está identificado como pendente de revisão jurídica.
 
 O visual aprovado usa títulos editoriais, verde escuro, fundo claro e leitura confortável. Dot Pattern adapta Magic UI (MIT); licenças em `docs/legal`. A imagem do livro foi gerada com image_gen; referência em `docs/assets.md`.
 
@@ -85,9 +101,3 @@ Os planos de importação integral anteriores em `docs/superpowers` são histór
 ## Aviso legal e colaboração
 
 O texto educativo e informativo está em `content/legal/aviso-legal.md` e aparece em `/sobre#aviso-legal`, com acesso pelo rodapé e pelo leitor. As referências de redação estão em `docs/legal/aviso-editorial-notes.md`. O aviso esclarece fontes e limites do serviço; não promete exclusão geral de responsabilidade e requer revisão jurídica antes da publicação como política definitiva. [CONTRIBUTING.md](CONTRIBUTING.md) explica fork, branch, validação e envio de Pull Requests; nenhum endereço de repositório próprio ou contato público foi inventado.
-# leis-brasil
-# leis-brasil
-# leis-brasil
-# leis-brasil
-# leis-brasil
-# leis-brasil
