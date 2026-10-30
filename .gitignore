@@ -1,0 +1,12 @@
+node_modules/
+.next/
+*.tsbuildinfo
+.superpowers/
+data/index*
+data/staging/
+data/snapshots/*.tar.gz
+.env*
+backups/
+.DS_Store
+.playwright-cli/
+*.pending
