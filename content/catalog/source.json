@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/ctresb/leis",
+  "commit": "2dac3a272eed1121f8dc38aab80fe563d713656d",
+  "catalog": "Seleção inicial de normas essenciais; não é índice nacional completo",
+  "constitution": {
+    "bytes": 722006,
+    "sha256": "32619869bc81b4eb97e0ec344daa7295fe581701a8e7804a5bf5039ec4f71774"
+  },
+  "remoteDocuments": 18
+}
